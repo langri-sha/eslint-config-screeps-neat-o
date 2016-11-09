@@ -33,6 +33,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
   "devDependencies": {
     "ava": "^0.16.0",
     "commitizen": "^2.8.6",
