@@ -6,6 +6,7 @@
   "scripts": {
     "test": "standard | snazzy && ava --verbose",
     "start": "ava --watch",
+    "build": "babel-node bin/build http://support.screeps.com/hc/en-us/articles/203084991-API-Reference > index.js",
     "lint": "standard | snazzy",
     "container": "export NAME=${PWD##*/}; export CACHE=npm-lazy; export CACHE_URL=http://${CACHE}; docker ps -a | grep -q $CACHE && npm run -s container:cache-start || npm run -s container:cache-run; docker ps -a | grep -q $NAME && npm run -s container:app-start || npm run -s container:app-run",
     "container:app-start": "docker start -ai $NAME",
