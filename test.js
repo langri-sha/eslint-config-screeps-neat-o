@@ -14,6 +14,11 @@ test('Test main exists', t => {
 
 import config from './index'
 
-test('Test stub content', t => {
-  t.truthy(config.apiUrl)
+test('Test config has some known globals', t => {
+  t.truthy(config.globals)
+
+  const keys = Object.keys(config.globals)
+
+  t.true(keys.indexOf('Game') !== -1)
+  t.true(keys.indexOf('BODYPARTS_ALL') !== -1)
 })

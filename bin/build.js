@@ -1,3 +1,19 @@
-const config = require('../lib/config')(process.argv[process.argv.length - 1])
+const globals = require('../lib/globals')
 
-console.log(`module.exports = ${JSON.stringify(config, null, 2)}`)
+async function main () {
+  const config = {}
+  const apiUrl = process.argv[process.argv.length - 1]
+
+  try {
+    config.globals = await globals.fromApiReference(apiUrl)
+  } catch (err) {
+    console.error('ERROR', err)
+
+    process.exit(-1)
+  }
+
+  console.log(`module.exports = ${JSON.stringify(config, null, 2)}`)
+  process.exit(0)
+}
+
+main()
