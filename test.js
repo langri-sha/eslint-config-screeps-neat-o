@@ -14,9 +14,14 @@ test('Test main exists', t => {
 
 import config from './index'
 
-test('Test config has some known globals', t => {
-  t.truthy(config.globals)
+test('Test config has some base settings', t => {
+  const keys = Object.keys(config)
 
+  t.true(keys.indexOf('parserOptions') !== -1)
+  t.true(keys.indexOf('globals') !== -1)
+})
+
+test('Test config has some known globals', t => {
   const keys = Object.keys(config.globals)
 
   t.true(keys.indexOf('Game') !== -1)

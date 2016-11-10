@@ -2,4 +2,5 @@
 
 ## [Unreleased]
 ### Added
-- Configuration for globals collected from the API reference.
+- Base configuration
+- Configuration for globals collected from the API reference
