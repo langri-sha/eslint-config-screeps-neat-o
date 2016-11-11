@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-screeps",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "A ESLint shareable config for Screeps",
   "main": "index.js",
   "scripts": {
