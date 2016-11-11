@@ -22,8 +22,8 @@ files. For example:
 }
 ```
 
-[travis-ci]: https://travis-ci.org/langri-sha/eslint-config-screeps
-[travis-ci-badge]: https://travis-ci.org/langri-sha/eslint-config-screeps.svg?branch=master
+[travis-ci]: https://travis-ci.org/langri-sha/eslint-config-screeps-neat-o
+[travis-ci-badge]: https://travis-ci.org/langri-sha/eslint-config-screeps-neat-o.svg?branch=master
 [npm]: https://www.npmjs.com/package/eslint-config-screeps-neat-o
 [npm-badge]: https://img.shields.io/npm/v/eslint-config-screeps-neat-o.svg
 
