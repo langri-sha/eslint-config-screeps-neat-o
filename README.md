@@ -6,7 +6,7 @@ robot is a happy robot.
 ## Install
 
 ```
-npm install eslint-config-screeps
+npm install eslint-config-screeps-neat-o
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ files. For example:
 
 ```
 {
-    "extends": "screeps"
+    "extends": "screeps-neat-o"
 }
 ```
 
