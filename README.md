@@ -1,5 +1,7 @@
 # Screeps - ESLint Shareable Config
 
+[![Build status][travis-ci-badge]](travis-ci) [![npm][npm-badge]](npm)
+
 A [ESLint](eslint) [shareable config](shareable-configs) for Screeps. A valid
 robot is a happy robot.
 
@@ -19,6 +21,11 @@ files. For example:
     "extends": "screeps-neat-o"
 }
 ```
+
+[travis-ci]: https://travis-ci.org/langri-sha/eslint-config-screeps
+[travis-ci-badge]: https://travis-ci.org/langri-sha/eslint-config-screeps.svg?branch=master
+[npm]: https://www.npmjs.com/package/eslint-config-screeps-neat-o
+[npm-badge]: https://img.shields.io/npm/v/eslint-config-screeps-neat-o.svg
 
 [screeps]: https://screeps.com/
 [eslint]: http://eslint.org/
