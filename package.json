@@ -8,6 +8,7 @@
     "start": "npm run -s lint && npm run -s build && npm run -s test",
     "build": "node --harmony-async-await bin/build http://support.screeps.com/hc/en-us/articles/203084991-API-Reference > index.js",
     "lint": "standard | snazzy",
+    "prepublish": "npm run -s build",
     "container": "export NAME=${PWD##*/}; export CACHE=npm-lazy; export CACHE_URL=http://${CACHE}; docker ps -a | grep -q $CACHE && npm run -s container:cache-start || npm run -s container:cache-run; docker ps -a | grep -q $NAME && npm run -s container:app-start || npm run -s container:app-run",
     "container:app-start": "docker start -ai $NAME",
     "container:app-run": "docker run --name $NAME --link $CACHE -w /$NAME -v $(pwd):/$NAME -v $(pwd)/package.json:/package.json -v /root/.npm -v /node_modules -e \"NODE_PATH=/node_modules\" -e \"CHOKIDAR_USEPOLLING=1\" -e \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/node_modules/.bin\" -e \"npm_config_registry=${CACHE_URL}\" --dns 8.8.8.8 --dns 8.8.4.4 --entrypoint=/bin/bash -it node:7",
