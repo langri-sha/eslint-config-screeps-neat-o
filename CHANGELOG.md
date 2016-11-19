@@ -1,8 +1,13 @@
 # Change Log
 
+## [1.1.0] - 2016-11-19
+### Changed
+- Updated modules
+
 ## [1.0.0] - 2016-11-11
 ### Added
 - Base configuration
 - Configuration for globals collected from the API reference
 
 [1.0.0]: https://github.com/langri-sha/eslint-config-screeps/compare/61f280ca...v1.0.0
+[1.1.0]: https://github.com/langri-sha/eslint-config-screeps/compare/v1.0.0...v1.1.0
