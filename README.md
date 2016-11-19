@@ -22,6 +22,10 @@ files. For example:
 }
 ```
 
+## Features
+
+- Globals, parsed directly from the API reference
+
 [travis-ci]: https://travis-ci.org/langri-sha/eslint-config-screeps-neat-o
 [travis-ci-badge]: https://travis-ci.org/langri-sha/eslint-config-screeps-neat-o.svg?branch=master
 [npm]: https://www.npmjs.com/package/eslint-config-screeps-neat-o
