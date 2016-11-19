@@ -1,9 +1,10 @@
 .*
 !.gitignore
+!.npmignore
 !.editorconfig
 !.eslintrc
 !.travis.yml
 
 node_modules/
+dist/
 npm-debug.log*
-index.js
