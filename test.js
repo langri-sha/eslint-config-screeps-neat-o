@@ -1,5 +1,6 @@
 import test from 'ava'
 
+import config from './index'
 import pkg from './package'
 
 test('Test API Reference URL in build', t => {
@@ -8,11 +9,9 @@ test('Test API Reference URL in build', t => {
   ))
 })
 
-test('Test main exists', t => {
-  t.notThrows(() => { require.resolve('./', pkg.main) })
+test('Test main built', t => {
+  t.notThrows(() => { require.resolve('./dist') })
 })
-
-import config from './index'
 
 test('Test config has some base settings', t => {
   const keys = Object.keys(config)
