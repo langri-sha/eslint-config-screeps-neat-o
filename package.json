@@ -35,6 +35,11 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "files": [
+    "CHANGELOG.md",
+    "dist",
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": ">= 3"
   },

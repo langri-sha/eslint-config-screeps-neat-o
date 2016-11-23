@@ -1,6 +1,5 @@
 .*
 !.gitignore
-!.npmignore
 !.bithoundrc
 !.editorconfig
 !.eslintrc
