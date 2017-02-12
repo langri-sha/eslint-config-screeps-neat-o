@@ -3,6 +3,8 @@
 ## [Unreleased]
 ### Changed
 - Updated modules
+### Fixed
+- README external references
 
 ## [1.1.0] - 2016-11-19
 ### Changed
