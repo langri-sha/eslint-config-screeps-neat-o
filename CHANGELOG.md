@@ -1,5 +1,9 @@
 # Change Log
 
+## [Unreleased]
+### Changed
+- Updated dependencies
+
 ## [1.2.0] - 2017-02-12
 ### Added
 - Latest API changes for  [`RoomVision`](http://support.screeps.com/hc/en-us/articles/115001047425-Changelog-2017-02-06)
