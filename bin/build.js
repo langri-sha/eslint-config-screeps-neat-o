@@ -1,7 +1,7 @@
 const base = require('../lib/base')
-const globals = require('../lib/globals');
+const globals = require('../lib/globals')
 
-(async function main () {
+;(async function main () {
   const config = Object.assign({}, base)
   const apiUrl = process.argv[process.argv.length - 1]
 
