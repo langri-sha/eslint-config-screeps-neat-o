@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-screeps-neat-o",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A ESLint shareable config for Screeps",
   "main": "index.js",
   "scripts": {

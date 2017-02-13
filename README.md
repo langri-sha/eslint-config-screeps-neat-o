@@ -1,8 +1,8 @@
 # Screeps - ESLint Shareable Config
 
-[![Build status][travis-ci-badge]](travis-ci) [![npm][npm-badge]](npm)
+[![Build status][travis-ci-badge]][travis-ci] [![npm][npm-badge]][npm]
 
-A [ESLint](eslint) [shareable config](shareable-configs) for Screeps. A valid
+A [ESLint][eslint] [shareable config][shareable-configs] for [Screeps][screeps]. A valid
 robot is a happy robot.
 
 ## Install
