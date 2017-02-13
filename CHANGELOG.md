@@ -1,8 +1,10 @@
 # Change Log
 
-## [Unreleased]
+## [1.2.1] - 2017-02-13
 ### Changed
 - Updated dependencies
+### Fixed
+- Empty build output
 
 ## [1.2.0] - 2017-02-12
 ### Added
@@ -25,3 +27,4 @@
 [1.0.0]: https://github.com/langri-sha/eslint-config-screeps/compare/61f280ca...v1.0.0
 [1.1.0]: https://github.com/langri-sha/eslint-config-screeps/compare/v1.0.0...v1.1.0
 [1.2.0]: https://github.com/langri-sha/eslint-config-screeps/compare/v1.1.0...v1.2.0
+[1.2.1]: https://github.com/langri-sha/eslint-config-screeps/compare/v1.2.0...v1.2.1
