@@ -41,7 +41,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">=3.17.0"
   },
   "devDependencies": {
     "ava": "^0.18.1",
