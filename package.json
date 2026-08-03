@@ -52,7 +52,7 @@
     "cz-conventional-changelog": "^3.0.0",
     "eslint": "^10.0.0",
     "snazzy": "^9.0.0",
-    "standard": "^8.5.0",
+    "standard": "^17.0.0",
     "x-ray": "^2.3.1"
   }
 }
